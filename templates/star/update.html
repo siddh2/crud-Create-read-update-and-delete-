@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'star/base.html' %}
+{% block child_block %}
+<div class="container " align="center"> 
+<h1> Update Records Carefully</h1>
+<hr>
+    <form class="m-2"method="post">
+    {% csrf_token %}
+        No:<input type="text" name="No" value="{{student.NO}}"><br>
+        Name:<input type="text" name="Name" value="{{student.Name}}"><br>
+        Marks:<input type="text" name="Marks" value="{{student.Marks}}"><br>
+        Address:<input type="text" name="Address" value="{{student.Address}}"><br>
+        <input type="submit" value="Update Record" name=''>
+    </form>
+</div>
+{% endblock child_block %}
