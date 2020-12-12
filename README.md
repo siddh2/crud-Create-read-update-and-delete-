@@ -1,4 +1,8 @@
 # crud-Create-read-update-and-delete-
+
+Django is a Python-based web framework which allows you to quickly create web application without all of the installation or dependency problems that you normally will find with other frameworks. Django is based on MVT (Model View Template) architecture and revolves around CRUD (Create, Retrieve, Update, Delete) operations.
+
+
 As you can see in given fig there is some table in which you can enter you information and click on insert record 
 
 
